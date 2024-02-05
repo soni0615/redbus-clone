@@ -1,0 +1,2867 @@
+body{
+    overflow-x: hidden;
+    background:white;
+ 
+}
+.container{
+    position: fixed;
+    top: 0%;
+    z-index:1;
+    background-color:white;
+    height: 100px;
+    width: 1500px;
+    left: -5px;
+    box-shadow: 0px 0px 15px 0px rgb(152, 142, 142);
+
+
+}
+.container-two{
+ position: relative;
+margin: 0;
+padding: 0;
+
+
+
+}
+.red-bus-img{
+    height: 35px;
+    width: 70px;
+    margin-left: 80px;
+    margin-top: 25px;
+    transform: scale(1.19);
+    position: absolute;
+
+}
+.red-bus-black{
+    height: 31px;
+    width: 39px;
+    left: 240px;
+    position: absolute;
+    top: 15px;
+    filter: grayscale(0) brightness(0);
+}
+.bus-tickets{
+    left: 220px;
+    position: absolute;
+    top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+ color:black;
+    font-weight: 600;
+    width: 100px;
+}
+.ryde-img{
+    height: 31px;
+    width: 39px;
+    margin-left: 375px;
+    position: absolute;
+    top: 15px;
+    filter:grayscale(1) brightness(0);
+
+
+}
+.ryde-text{
+    margin-left: 350px;
+    position: absolute;
+    top: 40px;
+    font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+        color: rgb(51, 51, 51);
+    font-weight: 600;
+    width: 100px;
+
+}
+.rail-img{
+    height: 31px;
+    width: 39px;
+    margin-left: 500px;
+    position: absolute;
+    top: 15px;
+    filter:grayscale(1) brightness(0);
+
+
+}
+.rail-text{
+    margin-left: 470px;
+    position: absolute;
+    top: 40px;
+    font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+        color: rgb(51, 51, 51);
+    font-weight: 600;
+    width: 150px;
+
+
+}
+.headphone{
+    height: 25px;
+width: 40px;
+top: 25px;
+position: absolute;
+left: 1000px;
+filter: grayscale(100%);
+}
+.help{
+    top: 15px;
+    position: absolute;
+    left: 1040px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: rgb(51, 51, 51);
+font-weight: 600;
+
+    
+}
+.user{   
+     height: 26px;
+    width: 28px;
+    top: 22px;
+    position: absolute;
+    left: 1120px;
+    }
+.user-account{
+    top: 15px;
+    position: absolute;
+    left: 1160px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: rgb(51, 51, 51);
+font-weight: 600;
+
+}
+.down-arrow{
+    height: 10px;
+    width: 18px;
+    top: 32px;
+    position: absolute;
+    left: 1230px;
+    filter: grayscale(20%);
+
+}
+.container-img{
+    position: relative;
+}
+.hero-img{
+    position: absolute;
+    width: 100vw;
+    left: -7px;
+    height: 540px;
+    top:70px;
+   object-fit: fill;
+}
+.bookings-heading{
+    position: relative;
+    top: 190px;
+    color: white;
+    font-size: 40px;
+    left: 320px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.white-button{
+    background-color: white;
+    height: 120px;
+    width: 820px;
+    position: absolute;
+    top: 240px;
+    border-radius: 30px;
+    left: 190px;
+    border-style: none;
+}
+.Get-on-logo{
+    position: absolute;
+    left: 0px;
+    top: 15px;
+height: 100px;
+border-top-left-radius: 35px;
+border-bottom-left-radius: 35px;
+}
+.from{
+    position: absolute;
+color: gray;
+top: 10px;
+left: 60px;
+font-size: 15px;
+font-weight: 500;
+
+font-family: 'Roboto', sans-serif;
+}
+.arrow-left-right{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 270px;
+    left: 390px;
+}
+.button-one{
+    background-color:white;
+    top: 240px;
+    left: 190px;
+    border-style: none;
+border-radius: 30px;
+    width: 240px;
+    position: absolute;
+    height: 120px;
+}
+.button-two{
+        background-color:white;
+        top: 240px;
+        left: 430px;
+    border-radius: 30px;
+    border-style: none;
+        width: 240px;
+        position: absolute;
+        height: 120px;
+    }
+    .button-three{
+            background-color:white;
+            top: 240px;
+            left: 670px;
+            border-style: none;
+        border-radius: 30px;
+            width: 240px;
+            position: absolute;
+            height: 120px;
+        
+    }
+    .button-four{
+        background-color:rgb(216, 78,85);
+        
+        top: 240px;
+        left: 920px;
+        border-style: none;
+    border-radius: 30px;
+        width: 230px;
+        position: absolute;
+        height: 120px;
+
+    }
+.get-off-logo{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+height: 100px;
+border-top-left-radius: 35px;
+border-bottom-left-radius: 35px;
+
+}
+.to{
+    position: absolute;
+    color: gray;
+    top: 10px;
+    left: 65px;
+    font-size: 15px;
+    font-weight: 500;
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+.calender-img{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    width: 40px;
+height: 40px;
+border-bottom-left-radius: 55px;
+border-bottom-right-radius: 55px;
+
+}
+.date{
+    position: absolute;
+    color: black;
+    top: 30px;
+    left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+.search-bus{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    font-size:22px;
+    font-weight: bolder;    
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+.trending-cards{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    color: rgb(61, 61, 61);
+    font-weight: 400;
+    font-size:30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.white-button-two{
+    background-color:white;
+    height: 350px;
+    width: 1200px;
+    position: relative;
+    top: 490px;
+    border-radius: 30px;
+    left: 80px;
+    border-style: none;
+    box-shadow: 2px 15px 15px 2px rgb(198, 196, 196);
+
+}
+.card-one{
+    position: absolute;
+    height: 200px;
+    width: 310px;
+  border: none;
+  top: 690px;
+  left: 100px;
+    border-radius: 30px;
+background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+}
+.first-img{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    border-radius: 35px;
+}
+.card-bus-button-one{
+background:rgba(255, 255, 255, 0.2);
+border: none;
+position: absolute;
+top: 710px;
+left: 200px;
+width: 50px;
+height: 30px;
+border-radius: 30px;
+
+}
+.card-text-1{
+    position: absolute;
+      color: white;
+      top: -5px;
+      left: 10px;
+
+}
+.offer-card-one{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 220px;
+    top: 30px;
+    left: -10px;
+    line-height: 5px;
+}
+.offer-card-one-part{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 170px;
+    top: 50px;
+    left: -33px;
+
+}
+.offer-date{
+    position: absolute;
+    color: white;
+    font-weight: medium;
+    font-size: 14px;
+    width: 220px;
+    top: 80px;
+    left: -54px;
+    letter-spacing: 1px;
+
+}
+.first-coupon{
+    height: 30px;
+    width: 70px;
+    position: absolute;
+    top: 830px;
+    left: 200px;
+    border-radius: 5px;
+    border: dashed white;
+    border-width: 1px;
+background-color: rgba(255, 255, 255, 0.2);
+}
+.first-word{
+    color: white;
+    font-size: 15px;
+    top: -10px;
+    left: 10px;
+    position: absolute;
+}
+.clipboard-img{
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    height: 30px;
+}
+.card-two{
+    position: absolute;
+    height: 200px;
+    width: 310px;
+  border: none;
+  top: 690px;
+  left: 430px;
+    border-radius: 30px;
+background-image: linear-gradient(71.04deg, rgb(39, 57, 101) -6.92%, rgb(80, 210, 149) 109.43%);
+
+}
+.superhit-img{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    border-radius: 35px;
+
+}
+.card-bus-button-two{
+    background:rgba(255, 255, 255, 0.2);
+border: none;
+position: absolute;
+top: 710px;
+left: 530px;
+width: 50px;
+height: 30px;
+border-radius: 30px;
+
+}
+.card-text-2{
+    position: absolute;
+    color: white;
+    top: -5px;
+    left: 10px;
+
+}
+.offer-card-two{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 220px;
+    top: 30px;
+    left: -5px;
+    line-height: 5px;
+
+}
+.offer-card-two-part{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 170px;
+    top: 50px;
+    left: -20px;
+
+}
+.offer-date-one{
+    position: absolute;
+    color: white;
+    font-weight: medium;
+    font-size: 14px;
+    width: 220px;
+    top: 80px;
+    left: -50px;
+    letter-spacing: 1px;
+
+}
+.superhit-coupon{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    top: 835px;
+    left: 535px;
+    border-radius: 5px;
+    border: dashed white;
+    border-width: 1px;
+background-color: rgba(255, 255, 255, 0.2);
+
+}
+.superhit-word{
+    color: white;
+    font-size: 15px;
+    top: -10px;
+    left: 2px;
+    position: absolute;
+
+}
+.clipboard-img-one{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    height: 30px;
+
+}
+.card-three{
+    position: absolute;
+    height: 200px;
+    width: 350px;
+  border: none;
+  top: 690px;
+  left: 760px;
+    border-radius: 30px;
+background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%)
+
+}
+.bus-img{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    border-radius: 35px;
+
+}
+.card-bus-button-three{
+    background:rgba(255, 255, 255, 0.2);
+border: none;
+position: absolute;
+top: 710px;
+left: 855px;
+width: 50px;
+height: 30px;
+border-radius: 30px;
+
+}
+.card-text-3{
+    position: absolute;
+    color: white;
+    top: -5px;
+    left: 10px;
+
+}
+.offer-card-three{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 220px;
+    top: 30px;
+    left: -5px;
+    line-height: 5px;
+
+}
+.offer-card-three-part{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 270px;
+    top: 50px;
+    left: -45px;
+
+}
+.offer-date-two{
+    position: absolute;
+    color: white;
+    font-weight: medium;
+    font-size: 14px;
+    width: 220px;
+    top: 80px;
+    left: -50px;
+    letter-spacing: 1px;
+
+}
+.bus-coupon{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    top: 835px;
+    left: 860px;
+    border-radius: 5px;
+    border: dashed white;
+    border-width: 1px;
+background-color: rgba(255, 255, 255, 0.2);
+
+}
+.bus-word{
+    color: white;
+    font-size: 15px;
+    top: -10px;
+    left: 2px;
+    position: absolute;
+
+}
+.clipboard-img-two{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    height: 30px;
+
+}
+.card-four{
+    position: absolute;
+    height: 200px;
+    width: 160px;
+  border: none;
+  top: 690px;
+  left: 1130px;
+  border-top-left-radius: 30px;
+
+  border-bottom-left-radius: 30px;
+background-image:linear-gradient(71.04deg, rgb(14, 113, 67) -6.92%, rgb(115, 236, 179) 109.43%)
+
+
+}
+.money-img{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    border-radius: 95px;
+    width: 80px;
+    height: 80px;
+}
+.card-bus-button-four{
+    background:rgba(255, 255, 255, 0.2);
+border: none;
+position: absolute;
+top: 710px;
+left: 1205px;
+width: 50px;
+height: 30px;
+border-radius: 30px;
+
+}
+.card-text-4{
+    position: absolute;
+    color: white;
+    top: -5px;
+    left: 10px;
+
+}
+.offer-card-four{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 220px;
+    top: 30px;
+    left: -45px;
+    line-height: 5px;
+
+}
+.offer-card-four-part{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    width: 270px;
+    top: 50px;
+    left: -45px;
+
+}
+.offer-date-three{
+    position: absolute;
+    color: white;
+    font-weight: medium;
+    font-size: 14px;
+    width: 220px;
+    top: 80px;
+    left: -40px;
+    letter-spacing: 1px;
+
+}
+.cash-coupon{
+    height: 30px;
+    width: 80px;
+    position: absolute;
+    top: 835px;
+    left: 1220px;
+    border-radius: 5px;
+    border: dashed white;
+    border-width: 1px;
+background-color: rgba(255, 255, 255, 0.2);
+
+}
+.cash-word{
+    color: white;
+    font-size: 15px;
+    top: -10px;
+    left: 2px;
+    position: absolute;
+
+}
+.clipboard-img-three{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+    height: 30px;
+
+}
+.view-all{
+    position: absolute;
+    height: 50px;
+    width: 140px;
+    top: 620px;
+    left: 1120px;
+    border: solid grey;
+    border-width: 1px;
+    border-radius: 25px;
+    background-color: white;
+
+}
+.view-text{
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    color:blue;
+    font-weight: 600;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.right-arrow{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 770px;
+    left: 1275px;
+    border-radius: 25px;
+z-index: 1;
+background-color: white;
+box-shadow: 1px 1px 2px 2px rgb(185, 184, 184);
+    
+}
+.web-image{
+    position: absolute;
+    top: 1030px;
+    left:40px;
+    width: 1300px;
+    height: 100px;
+}
+.div-container-3{
+    position: relative;
+}
+.now{
+    position: absolute;
+    top: 750px;
+left: 100px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: black;
+  font-size: 45px;
+
+}
+.ryde-rental{
+    position: absolute;
+    top: 1000px;
+    height: 40px;
+    width: 100px;
+    left: 100px;
+
+}
+.cab-rental{
+    position: absolute;
+    top: 995px;
+    left: 200px;
+    font-family: "Montserrat";
+font-weight: 700;
+color: rgb(216, 78, 85);
+font-size: 20px;
+
+}
+.or-class{
+    top: 1005px;
+    left: 380px;
+position: absolute;
+height: 30px;
+}
+.rail-two{
+    position: absolute;
+    top: 1005px;
+    left: 430px;
+    height: 40px;
+    filter:brightness(0);
+    opacity: 0.75;
+
+}
+.train-tickets-two{
+    position: absolute;
+    top: 985px;
+    left: 515px;
+    font-family: "Montserrat";
+font-weight: 400;
+font-size: 23px;
+filter:brightness(0);
+opacity: 0.75;
+
+
+
+}
+.line{
+    position: absolute;
+    top: 1050px;
+    color: grey;
+    width: 600px;
+    left: 100px;
+
+}
+.line-two{
+    position: absolute;
+    top: 1046px;
+    width: 275px;
+    border:2px solid  rgb(216, 78, 85);
+    left: 102px;
+
+}
+.rent-cabs{
+    position: absolute;
+    top: 1086px;
+    left: 100px;
+    font-family: "Montserrat";
+    font-weight: 400;
+font-size: 20px;    
+
+}
+.ryde-car{
+    position: absolute;
+    top: 1170px;
+    left: 100px;
+    width: 100px;
+
+
+}
+.outstation{
+position: absolute;
+top: 1160px;
+left: 230px;
+font-family: "Montserrat";
+font-weight: 600;
+font-size: 20px;   } 
+
+.car{
+    position: absolute;
+    top: 1250px;
+    left: 100px;
+    width: 100px;
+
+}
+.hourly-rental{
+    position: absolute;
+top: 1255px;
+left: 230px;
+font-family: "Montserrat";
+font-weight: 600;
+font-size: 20px;   
+
+}
+.aeroplane{
+    
+        position: absolute;
+        top: 1340px;
+        left: 100px;
+        width: 100px;
+    
+    
+}
+.airport{
+    position: absolute;
+top: 1330px;
+left: 230px;
+font-family: "Montserrat";
+font-weight: 600;
+font-size: 20px;   
+
+}
+.bus-rental{
+    position: absolute;
+    top: 1450px;
+    left: 100px;
+    background-color:rgb(216, 78, 85);
+    height: 50px;
+    width: 300px;
+    border-radius: 15px;
+border: none;    
+}
+.bus-rental-font{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    top: 2px;
+    left: 15px;   
+color: white;
+
+}
+.fa-arrow-right{
+    position: absolute;
+    left: 250px;
+    top: 26px;
+}
+.ryde-pop{
+    position: absolute;
+    top: 965px;
+    left: 650px;
+    width: 750px;
+z-index: 1;
+}
+.bg-img{
+    position: absolute;
+    top: 745px;
+    left: 700px;
+height: 800px;
+width: 600px;
+
+
+}
+.container-4{
+    position: relative;
+}
+.red-button{
+    position: absolute;
+    top: 1680px;
+    left: 90px;
+    border: none;
+border-radius: 50px;
+}
+.enjoy-text{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 40px;
+    top: 1670px;
+    left: 130px;   
+color: white;
+
+
+}
+.white-button-three{
+    position: absolute;
+    background-color: white;
+    top: 1760px;
+    left: 125px;
+    border: none;
+border-radius: 25px;
+height: 300px;
+width: 500px;
+
+}
+.tick-one{
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    border: none;
+height: 50px;
+width: 30px;
+}
+.tick-two{
+    position: absolute;
+    top: 80px;
+    left: 35px;
+    border: none;
+height: 50px;
+width: 30px;
+}
+.quick-access{
+        position: absolute;
+        top: 15px;
+        left: 75px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size: 22px;
+color: #4a4a4a;        
+    
+    
+    
+}
+.superior-live{
+    position: absolute;
+    top: 68px;
+    left: 75px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 22px;
+color: #4a4a4a;        
+}
+.four-point-five{
+    position: absolute;
+    top: 140px;
+    left: 38px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 32px;
+color: #4a4a4a;        
+
+
+
+}
+.fifty-m{
+    position: absolute;
+    top: 185px;
+    left: 38px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+color: #4a4a4a;        
+
+
+
+}
+.play-store{
+    position: absolute;
+    top: 212px;
+    left: 38px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+color: #090909;        
+}
+.or-img{
+    position: absolute;
+    top: 148px;
+    left: 228px;
+    height: 120px;
+    width: 20px;
+
+}
+.four-point-six{
+    position: absolute;
+    top: 140px;
+    left: 278px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 32px;
+color: #4a4a4a;        
+
+
+
+}
+.fifty-m-plus{
+    position: absolute;
+    top: 185px;
+    left: 278px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+color: #4a4a4a;        
+
+
+
+}
+.app-store{
+    position: absolute;
+    top: 212px;
+    left: 278px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+color: #090909;        
+}
+.scan-to-download{
+    position: absolute;
+    top: 45px;
+    left:533px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+color: white;        
+width: 150px;
+
+}
+.download{
+    position: absolute;
+    top: 65px;
+    left:568px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+color: white;        
+
+}
+
+.qr-code{
+        position: absolute;
+        top: 120px;
+        left:568px;
+        width: 130px;
+    
+    
+
+}
+.download-app{
+        position: absolute;
+        top: 45px;
+        left:798px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 20px;
+    color: white;   
+    width: 156px;     
+    
+    
+    
+}
+.app{
+    position: absolute;
+    top: 68px;
+    left:762px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+color: white;   
+width: 156px;     
+
+
+
+}
+.playstore-img{
+    position: absolute;
+    top: 120px;
+    left:802px;
+}
+.app-store-img{
+    position: absolute;
+    top: 180px;
+    left:802px;
+}
+.primo-top-banner{
+    position: absolute;
+    top: 560px;
+    left:302px;
+}
+.primo-button-one{
+    position: absolute;
+    width: 400px;
+    height: 170px;
+    background-color:#bbb;
+    top: 2560px;
+    left:22px;
+    border: none;
+    border-radius: 20px;
+   background-image:  linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+}
+.primo-img-one{
+    position: absolute;
+    top: 35px;
+    left:32px;
+
+}
+.one-of-five{
+    position: absolute;
+    top: -7px;
+    left:155px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+color: white;   
+
+
+}
+.qualify{
+        position: absolute;
+        top: 19px;
+        left:155px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 22px;
+    color: white;   
+}
+.primo-para{
+    position: absolute;
+    top: 69px;
+    left:155px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+}
+.ensures{
+    position: absolute;
+    top: 95px;
+    left:155px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+}
+.safer{
+    position: absolute;
+    top: 120px;
+    left:155px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+
+}
+.primo-button-second{
+    position: absolute;
+    width: 400px;
+    height: 170px;
+    background-color:#bbb;
+    top: 2560px;
+    left:462px;
+    border: none;
+    border-radius: 20px;
+   background-image:  linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+}
+.primo-img-second{
+    position: absolute;
+    top: 35px;
+    left:25px;
+
+}
+.preferred{
+    position: absolute;
+    top: -7px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+color: white;   
+}
+.ninety{
+    position: absolute;
+    top: 22px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+color: white;   
+}
+.travellers{
+    position: absolute;
+    top: 69px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+}
+.buses{
+    position: absolute;
+    top: 95px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+}
+.comfort{
+    position: absolute;
+    top: 120px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+
+}
+
+.primo-button-third{
+    position: absolute;
+    width: 400px;
+    height: 170px;
+    background-color:#bbb;
+    top: 2560px;
+    left:908px;
+    border: none;
+    border-radius: 20px;
+   background-image:  linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+}
+.primo-img-third{
+    position: absolute;
+    top: 35px;
+    left:25px;
+
+}
+.nine-lakh{
+    position: absolute;
+    top: -7px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+color: white;   
+}
+.persons{
+    position: absolute;
+    top: 22px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 22px;
+color: white;   
+}
+.people{
+    position: absolute;
+    top: 69px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+}
+.travelled{
+    position: absolute;
+    top: 95px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+}
+.month{
+    position: absolute;
+    top: 120px;
+    left:145px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+color: white;   
+
+}
+.container-5{
+    position: relative;
+}
+.partners{
+    position: absolute;
+    top: 2895px;
+    left:105px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 2.5rem;
+color:#4a4a4a;   
+
+}
+.twenty-five{
+    position: absolute;
+    top: 2995px;
+    left:105px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:30px;
+color:#4a4a4a;   
+
+}
+.view-all-button{
+    position: absolute;
+    top: 2995px;
+    left:1055px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size:18px;
+color:#0b0a0a;   
+height: 50px;
+width: 130px;
+border-radius: 18px;
+border: solid #777575 1px;
+}
+.img-first{
+    position: absolute;
+    top:3095px;
+    left: 125px;
+}
+.apsrtc{
+    position: absolute;
+    top:3205px;
+    left: 130px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.img-second{
+    position: absolute;
+    top:3095px;
+    left: 260px;
+}
+.gsrtc{
+    position: absolute;
+    top:3205px;
+    left: 270px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.img-third{
+    position: absolute;
+    top:3095px;
+    left: 400px;
+    height: 95px;
+}
+.tsrtc{
+    position: absolute;
+    top:3205px;
+    left: 410px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.img-four{
+    position: absolute;
+    top:3085px;
+    left: 540px;
+    height: 130px;
+}
+.msrtc{
+    position: absolute;
+    top:3205px;
+    left: 550px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.img-five{
+    position: absolute;
+    top:3105px;
+    left: 670px;
+    height: 90px;
+}
+.kerala{
+    position: absolute;
+    top:3205px;
+    left: 670px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.img-six{
+    position: absolute;
+    top:3105px;
+    left: 810px;
+    height: 90px;
+}
+.sbstc{
+    position: absolute;
+    top:3205px;
+    left: 820px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.img-seven{
+    position: absolute;
+    top:3095px;
+    left: 970px;
+    height: 105px;
+}
+.rsrtc{
+    position: absolute;
+    top:3205px;
+    left: 980px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.img-eight{
+    position: absolute;
+    top:3105px;
+    left: 1100px;
+    height: 105px;
+}
+.upsrtc{
+    position: absolute;
+    top:3205px;
+    left: 1110px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+color:black;   
+
+}
+.thirty-five{
+    position: absolute;
+    top:3310px;
+    left: 110px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:30px;
+color:rgb(75, 75, 75);   
+
+}
+.view-all-button-two{
+    position: absolute;
+    top: 3320px;
+    left:1055px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size:18px;
+color:#0b0a0a;   
+height: 50px;
+width: 130px;
+border-radius: 18px;
+border: solid #777575 1px;
+}
+.srs{
+        position: absolute;
+        top: 3450px;
+        left:110px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        font-size:20px;
+      color:  rgb(29, 29, 29)  ;  
+}
+.kallada{
+    position: absolute;
+    top: 3450px;
+    left:350px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.kpn{
+    position: absolute;
+    top: 3450px;
+    left:590px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.orange-travels{
+    position: absolute;
+    top: 3450px;
+    left:830px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.parveen-travels{
+    position: absolute;
+    top: 3450px;
+    left:1070px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.rajdhani{
+    position: absolute;
+    top: 3530px;
+    left:110px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.vrl{
+position: absolute;
+top: 3530px;
+left:350px;
+font-family: "Montserrat";
+font-weight: 400;
+font-size:20px;
+color:  rgb(29, 29, 29)  ;  
+}
+.chartered{
+    position: absolute;
+    top: 3530px;
+    left:590px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.bengal{
+    position: absolute;
+    top: 3530px;
+    left:830px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.srm{
+    position: absolute;
+    top: 3530px;
+    left:1070px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+
+.infant{
+    position: absolute;
+    top: 3600px;
+    left:110px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.patel{
+position: absolute;
+top: 3600px;
+left:350px;
+font-family: "Montserrat";
+font-weight: 400;
+font-size:20px;
+color:  rgb(29, 29, 29)  ;  
+}
+.jbt{
+    position: absolute;
+    top: 3600px;
+    left:590px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.shatabdi{
+    position: absolute;
+    top: 3600px;
+    left:830px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.eagle{
+    position: absolute;
+    top: 3600px;
+    left:1070px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.kanker{
+    position: absolute;
+    top: 3680px;
+    left:110px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.komitla{
+position: absolute;
+top: 3680px;
+left:350px;
+font-family: "Montserrat";
+font-weight: 400;
+font-size:20px;
+color:  rgb(29, 29, 29)  ;  
+}
+.krishna{
+    position: absolute;
+    top: 3680px;
+    left:590px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.humsafar{
+    position: absolute;
+    top: 3680px;
+    left:830px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.mahasagar{
+    position: absolute;
+    top: 3680px;
+    left:1070px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.raj{
+    position: absolute;
+    top: 3760px;
+    left:110px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.sharma{
+position: absolute;
+top: 3760px;
+left:350px;
+font-family: "Montserrat";
+font-weight: 400;
+font-size:20px;
+color:  rgb(29, 29, 29)  ;  
+}
+.shrninath-travels{
+    position: absolute;
+    top: 3760px;
+    left:590px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size:20px;
+  color:  rgb(29, 29, 29)  ;  
+}
+.global{
+    position: absolute;
+    top: 3900px;
+    left:100px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size:40px;
+  color:  rgb(29, 29, 29)  ;  
+
+}
+.img-colombia{
+    position: absolute;
+    top:4010px;
+    left: 120px;
+}
+.colombia{
+    position: absolute;
+    top:4150px;
+    left: 122px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:25px;
+color:black;   
+
+}
+.img-india{
+    position: absolute;
+    top:4010px;
+    left: 300px;
+}
+.india{
+    position: absolute;
+    top:4150px;
+    left: 335px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:25px;
+color:black;   
+
+}
+.img-indonesia{
+    position: absolute;
+    top:4010px;
+    left: 480px;
+}
+.indonesia{
+    position: absolute;
+    top:4150px;
+    left: 490px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:25px;
+color:black;   
+
+}
+.img-malaysia{
+    position: absolute;
+    top:4010px;
+    left: 670px;
+}
+.malaysia{
+    position: absolute;
+    top:4150px;
+    left: 680px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:25px;
+color:black;   
+
+}
+.img-peru{
+    position: absolute;
+    top:4010px;
+    left: 860px;
+}
+.peru{
+    position: absolute;
+    top:4150px;
+    left: 880px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:25px;
+color:black;   
+
+}
+.img-singapore{
+    position: absolute;
+    top:4010px;
+    left: 1040px;
+}
+.singapore{
+    position: absolute;
+    top:4150px;
+    left: 1040px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:25px;
+color:black;   
+
+}
+.book-tickets{
+    position: absolute;
+    top:4330px;
+    left: 110px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:42px;
+color:#1d1d1d;   
+
+}
+.para-one{
+     position: absolute;
+    top:4430px;
+    left: 110px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:18px;
+    line-height: 2rem;
+    word-break: break-word;
+color:#1d1d1d;   
+}
+.para-two{
+    position: absolute;
+   top:4600px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1d1d1d;   
+}
+.para-three{
+    position: absolute;
+   top:4840px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1d1d1d;   
+}
+.para-four{
+    position: absolute;
+   top:5020px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1d1d1d;   
+}
+.para-five{
+    position: absolute;
+   top:5160px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1d1d1d;   
+}
+.para-six{
+    position: absolute;
+   top:5270px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1d1d1d;   
+}
+.names{
+    position: absolute;
+   top:5302px;
+   left: 665px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1024dd;   
+}
+.names-one{
+    position: absolute;
+   top:5335px;
+   left: 107px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1024dd;   
+}
+.para-seven{
+    position: absolute;
+   top:5336px;
+   left: 355px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1d1d1d;   
+}
+.para-eight{
+    position: absolute;
+   top:5368px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:400;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1d1d1d;   
+}
+.para-nine{
+    position: absolute;
+   top:5428px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:500;
+   font-size:20px;
+   line-height: 2rem;
+   word-break: break-word;
+color:#1a0cb1;   
+}
+.container-6{
+    position: relative;
+}
+.red-deals{
+    position: absolute;
+    top:5600px;
+    left: 110px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:45px;
+ color:#1d1d1d;   
+ 
+}
+.para-ten{
+    position: absolute;
+   top:5700px;
+   left: 110px;
+   font-family: "Montserrat";
+   font-weight:500;
+   font-size:18px;
+   line-height: 2rem;
+   word-break: break-word;
+
+color:#1d1d1d;   
+}
+.button-five{
+position: absolute; 
+height: 210px;
+width: 1100px;
+border: solid 1px rgb(202, 198, 198) ;
+top:5800px;
+left: 110px;
+background-color: white;
+border-radius: 20px;
+}
+.red-bus-image{
+    position: absolute; 
+    top:80px;
+    height: 50px;
+    width: 200px;
+    left: 5px;
+    }
+    .twenty-percent{
+        position: absolute;
+        top:50px;
+        left: 170px;
+        font-family: "Montserrat";
+        font-weight:600;
+        font-size:28px;
+        line-height: 2rem;
+        word-break: break-word;
+     
+     color:#3c3c3c;   
+     
+    }
+    .off{
+        position: absolute;
+        top:-30px;
+        left: 560px;
+        font-family: "Montserrat";
+        font-weight:600;
+        font-size:30px;
+     color:#d84e5a;   
+     width: 150px;
+     
+    }
+    .red-book-now{
+        position: absolute;
+        top:5860px;
+        left: 1030px;
+        font-family: "Montserrat";
+        font-weight:600;
+        font-size:15px;
+     color:white;   
+     border-radius: 10px;
+     border: none;
+     height: 50px;
+     width: 150px;
+     background-color: #d84e5a;
+     
+    }
+    .thirty-seven{
+        position: absolute;
+        top:5920px;
+        left: 285px;
+        font-family: "Montserrat";
+        font-weight:600;
+        font-size:20px;
+     color:rgb(202, 94, 94);   
+     border-radius: 10px;
+     border: none;
+     height: 50px;
+     width: 150px;
+     
+    }
+    .deals{
+            position: absolute;
+            top:5922px;
+            left: 340px;
+            font-family: "Montserrat";
+            font-weight:600;
+            font-size:19px;
+         color:#2f2f2f;   
+         border-radius: 10px;
+         border: none;
+         
+        
+    }
+    .one-fifteen{
+        position: absolute;
+        top:5922px;
+        left: 415px;
+        font-family: "Montserrat";
+        font-weight:600;
+        font-size:20px;
+     color:rgb(202, 94, 94);   
+     border-radius: 10px;
+     border: none;
+     height: 50px;
+     width: 150px;
+     
+    }
+    .bus-operators{
+        position: absolute;
+        top:5922px;
+        left: 470px;
+        font-family: "Montserrat";
+        font-weight:600;
+        font-size:19px;
+     color:#2f2f2f;   
+     border-radius: 10px;
+     border: none;
+     
+    
+}
+.two-lakh{
+    position: absolute;
+    top:5922px;
+    left: 625px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:20px;
+ color:rgb(202, 94, 94);   
+ border-radius: 10px;
+ border: none;
+ height: 50px;
+ width: 150px;
+ 
+}
+.routes{
+    position: absolute;
+    top:5923px;
+    left: 710px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:19px;
+ color:#2f2f2f;   
+ border-radius: 10px;
+ border: none;
+ 
+
+}
+.container-7{
+    position: relative;
+}
+.faq{
+    position: absolute;
+    top:6150px;
+    left: 120px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:45px;
+ color:black;   
+
+}
+.general{
+    position: absolute;
+    top:6280px;
+    left: 130px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+ color:#d84e5a;   
+
+}
+.line-three{
+    position: absolute;
+    top:6320px;
+    left: 125px;
+   color: #3c3c3c;
+    width: 100px;
+    border: 1px solid #d84e5a;
+}
+.ticket-related{
+    position: absolute;
+    top:6280px;
+    left: 280px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+ color:black;   
+
+}
+.payment{
+    position: absolute;
+    top:6280px;
+    left: 490px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+ color:black;   
+
+}
+.refund{
+    position: absolute;
+    top:6280px;
+    left: 650px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+ color:black;   
+
+}
+.insurance{
+    position: absolute;
+    top:6280px;
+    left: 920px;
+    font-family: "Montserrat";
+    font-weight:400;
+    font-size:20px;
+ color:black;   
+
+}
+.faq-1{
+    position:absolute;
+    left: 150px;
+    top:6380px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-first{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.plus-icon{
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left:1030px ;
+    top: 30px;
+}
+.faq-2{
+    position:absolute;
+    left: 150px;
+    top:6500px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-second{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.faq-3{
+    position:absolute;
+    left: 150px;
+    top:6620px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-third{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.faq-4{
+    position:absolute;
+    left: 150px;
+    top:6740px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-four{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.faq-5{
+    position:absolute;
+    left: 150px;
+    top:6860px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-five{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.faq-6{
+    position:absolute;
+    left: 150px;
+    top:6980px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-six{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.faq-7{
+    position:absolute;
+    left: 150px;
+    top:7100px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-seven{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.faq-8{
+    position:absolute;
+    left: 150px;
+    top:7220px;
+ height: 100px;
+    width: 1100px;
+background-color: white;
+border-radius: 20px;
+border: 1px solid rgb(196, 192, 192);
+}
+.question-eight{
+    position: absolute;
+        top: 27px;
+    left: 20px;
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size:16px;
+ color:black;   
+
+}
+.one-button{
+    position: absolute;
+    left: -10px;
+    top:7440px;
+ height: 120px;
+    width: 100vw;
+background-color: #eeecec;
+border: none;
+font-family: "Montserrat";
+font-weight:600;
+font-size:12px;
+
+
+}
+.popular{
+    position: absolute;
+    left: 170px;
+top: 35px;
+color: #3d3c3c;
+}
+ .fa-angle-down{
+    position: absolute;
+    left: 1250px;
+ }
+ .line-four{
+    position: absolute;
+    top:100px;
+    left: 170px;
+   color: #3c3c3c;
+    width: 1100px;
+    border: 1px solid #afadad ;
+}
+.two-button{
+    position: absolute;
+    left: -10px;
+    top:7550px;
+ height: 120px;
+    width: 100vw;
+background-color: #eeecec;
+border: none;
+font-family: "Montserrat";
+font-weight:600;
+font-size:12px;
+
+}
+.popular{
+    position: absolute;
+    left: 170px;
+top: 35px;
+color: #3d3c3c;
+}
+ .fa-angle-down{
+    position: absolute;
+    left: 1250px;
+ }
+ .line-four{
+    position: absolute;
+    top:100px;
+    left: 170px;
+   color: #3c3c3c;
+    width: 1100px;
+    border: 1px solid #afadad ;
+}
+.three-button{
+    position: absolute;
+    left: -10px;
+    top:7670px;
+ height: 120px;
+    width: 100vw;
+background-color: #eeecec;
+border: none;
+font-family: "Montserrat";
+font-weight:600;
+font-size:12px;
+
+
+}
+.popular{
+    position: absolute;
+    left: 170px;
+top: 35px;
+color: #3d3c3c;
+}
+ .fa-angle-down{
+    position: absolute;
+    left: 1250px;
+ }
+ .line-four{
+    position: absolute;
+    top:100px;
+    left: 170px;
+   color: #3c3c3c;
+    width: 1100px;
+    border: 1px solid #afadad ;
+}
+.four-button{
+    position: absolute;
+    background-color: #eeecec;
+    height: 600px;
+    width: 100vw;
+    top:7790px;
+    border: none;
+}
+.four-button-img{
+    position: absolute;
+    background-color: #eeecec;
+    left: 150px;
+    height: 100px;
+    width: 120px;
+    top:100px;
+}
+
+.one-one{
+    position: absolute;
+    left: 150px;
+    top:190px;
+    font-family: "Montserrat";
+font-weight:400;
+font-size:17px;
+color: #3E3E3E;
+line-height: 20px;
+word-break:break-word;
+}
+ .two-two{
+    position: absolute;
+    left: 150px;
+    top:210px;
+    font-family: "Montserrat";
+font-weight:400;
+font-size:17px;
+color: #3E3E3E;
+line-height: 20px;
+word-break:break-word;
+}.three-three{
+    position: absolute;
+    left: 150px;
+    top:230px;
+    font-family: "Montserrat";
+font-weight:400;
+font-size:17px;
+color: #3E3E3E;
+line-height: 20px;
+word-break:break-word;
+}
+.four-four{
+    position: absolute;
+    left: 140px;
+    top:250px;
+    font-family: "Montserrat";
+font-weight:400;
+font-size:17px;
+color: #3E3E3E;
+line-height: 20px;
+width: 300px;
+word-break:break-word;
+}.five-five{
+    position: absolute;
+    left: 150px;
+    top:270px;
+    font-family: "Montserrat";
+font-weight:400;
+font-size:17px;
+color: #3E3E3E;
+line-height: 20px;
+word-break:break-word;
+}.six-six{
+    position: absolute;
+    left: 150px;
+    top:290px;
+    font-family: "Montserrat";
+font-weight:400;
+font-size:17px;
+color: #3E3E3E;
+line-height: 20px;
+word-break:break-word;
+}.seven-seven{
+    position: absolute;
+    left: 150px;
+    top:310px;
+    font-family: "Montserrat";
+font-weight:400;
+font-size:17px;
+color: #3E3E3E;
+line-height: 20px;
+word-break:break-word;
+} 
+.about-redbus{
+    position: absolute;
+    left: 550px;
+    top:80px;
+    font-family: "Montserrat";
+font-weight:700;
+font-size:19px;
+color: black;
+line-height: 20px;
+word-break:break-word;
+} 
+.list-one{
+    list-style: none;
+}
+.About-us{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 130px;
+}
+.Investors-relations{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 160px;
+}.Contact-us{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 190px;
+}.Mobile-version{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 220px;
+}.redbus-on-mobile{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 250px;
+}.Sitemap{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 280px;
+}.Offers{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 310px;
+}.Careers{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 340px;
+}.Values{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+left: 550px;
+top: 370px;
+}
+.info{
+    position: absolute;
+    left: 750px;
+    top:80px;
+    font-family: "Montserrat";
+font-weight:700;
+font-size:19px;
+color: black;
+line-height: 20px;
+word-break:break-word;
+} 
+.list-two{
+    list-style: none;
+}
+.t-and-c{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 130px;
+}
+.Privacy-Policy{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 160px;
+}.FAQ{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 190px;
+}.Blog{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 220px;
+}.Bus-operator-registration{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 250px;
+}.Agent-registration{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 280px;
+}.Insurance-partner{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 310px;
+}.User-agreement{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 750px;
+   top: 340px;
+}
+/*thirdlist*/
+.Global-Sites{
+    position: absolute;
+    left: 980px;
+    top:80px;
+    font-family: "Montserrat";
+font-weight:700;
+font-size:19px;
+color: black;
+line-height: 20px;
+word-break:break-word;
+} 
+.list-three{
+    list-style: none;
+}
+.India{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 980px;
+   top: 130px;
+}
+.Singapore{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 980px;
+   top: 160px;
+}.Malaysia{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 980px;
+   top: 190px;
+}.Indonesia{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 980px;
+   top: 220px;
+}.Peru{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 980px;
+   top: 250px;
+}.Colombia{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 980px;
+   top: 280px;
+}
+
+.Our-partners{
+    position: absolute;
+    left: 1150px;
+    top:80px;
+    font-family: "Montserrat";
+font-weight:700;
+font-size:19px;
+color: black;
+line-height: 20px;
+word-break:break-word;
+} 
+.list-four{
+    list-style: none;
+}
+.Goibibo-Bus{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 1150px;
+   top: 130px;
+}
+.Goibibo-Hotels{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left: 1150px;
+   top: 160px;
+}
+.Makemytrip-Hotels{
+    position: absolute;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+   left:1150px;
+   top: 190px;
+}
+.line-five{
+    position: absolute;
+    top:430px;
+    left: 150px;
+   color: #3c3c3c;
+    width: 1150px;
+    border: 1px solid #d5d2d2 ;
+}
+.footer{
+    position: absolute;
+    top:470px;
+    left: -230px;
+   color: #3c3c3c;
+    width: 1150px;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+
+}
+.fb-img{
+        position: absolute;
+        top:500px;
+        left: 1060px;
+       color: #3c3c3c;
+        font-family: "Montserrat";
+        font-weight:500;
+        color: #3E3E3E;
+       font-size: 16px;
+    
+
+}
+.linkedin-img{
+    position: absolute;
+    top:500px;
+    left: 1110px;
+   color: #3c3c3c;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+
+
+}
+.twitter-img{
+    position: absolute;
+    top:500px;
+    left: 1150px;
+   color: #3c3c3c;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+
+
+}
+
+.insta-img{
+    position: absolute;
+    top:500px;
+    left: 1190px;
+   color: #3c3c3c;
+    font-family: "Montserrat";
+    font-weight:500;
+    color: #3E3E3E;
+   font-size: 16px;
+
+
+}
+
+
